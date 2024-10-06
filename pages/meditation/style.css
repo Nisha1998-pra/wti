@@ -1,0 +1,211 @@
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color: #E56861;
+
+}
+
+.logo h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0 30px;
+    font-weight: bold;
+}
+.navbar a{
+    
+    color: #FFFF;
+   font-size : 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    
+}
+.header .icon a{
+    line-height: 80px;
+    margin: 0 30px;
+    color: #FFFF;   
+}
+.bar-btn{
+    display: none;
+}
+.slider{
+    display: flex;
+    animation: 2s slider ;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    background-image: url(./images/);
+    
+}
+.banner{
+    background: url(./images/banner-bg.jpg);
+    height: 100vh;
+}
+.banner-text a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #c36;
+    color: #E56861;
+    font-family: "Libre Franklin", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.banner-text h2{
+        display: block;
+        font-size: 3.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        color: rgb(35, 35, 35);
+}
+.banner-text p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 22px;
+    color: rgb(60, 60, 60);
+}
+.container{
+    height: 100%;
+    padding-block: 50px;
+}
+.ist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.condition{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .rotation{
+        background-image: url(images/banner-img1-min.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    .rotation h1{
+        color:#FFF;
+        text-align: center;
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .card-container{
+        perspective: 1000px;
+    }
+    .card{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+    }
+    .front,.back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        backface-visibility: hidden;
+    }
+    .front{
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transform: rotateY(0deg);
+    }
+    .back{
+        background-color:blue;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transform: rotateY(180deg);
+    }
+    .card-container:hover .card{
+        transform: rotateY(180deg);
+    }
+    .rotation-img .card-container{
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        position: relative;
+
+    }
+    .rotation-img{
+        margin-top: 170px;
+        margin-left: 220px;
+        
+    }
+    .section{
+        
+    }
+    .lotus{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 190px;
+        margin-top: 90px;
+
+    }
+    .lotus h1{
+        font-size: 40px;
+        margin-left: 80px;
+    }
+    .lotus p{
+        font-size: 22px;
+        margin-left: 240px;
+    }
+    .lotus img{
+        border-radius: 50%;
+    }
+    .container-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .people-section{
+        background: url(./images/banner-bg.jpg);
+        height: 100vh;
+    }
+    .box{width: 340px;
+        height: 340px;
+
+        
+    }
+    .box p{
+        font-size: 16px;
+    font-style: normal;
+    line-height: 32px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Libre Franklin", Sans-serif;;
+    color: #7a7a7a;
+    }
